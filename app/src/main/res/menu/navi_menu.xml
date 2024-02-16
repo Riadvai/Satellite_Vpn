@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/AllServer"
+        android:icon="@drawable/icons_location"
+        android:title="ALL Server">
+
+    </item>
+
+    <item android:id="@+id/Setting"
+        android:icon="@drawable/icons8_setting"
+        android:title="Setting">
+
+    </item>
+
+    <item android:id="@+id/About"
+        android:icon="@drawable/icons_about"
+        android:title="About">
+
+    </item>
+
+    <item android:id="@+id/Contact"
+        android:icon="@drawable/icons_contact"
+        android:title="Contact">
+
+    </item>
+
+    <item android:id="@+id/Rate_us"
+        android:icon="@drawable/icons_rate"
+        android:title="Rate us">
+
+    </item>
+</menu>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting_Activity"
+    android:background="@color/white">
+    
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@color/light_blue"
+        style="@style/CustomCardViewStyle"
+        app:strokeColor="@color/black">
+        <View
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icons_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satellite VPN"
+            android:textSize="40sp"
+            android:id="@+id/stnme"
+            android:layout_gravity="center"
+            android:fontFamily="@font/harrypoter"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/white"
+            android:layout_marginTop="50dp"
+
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Setting"
+    android:textColor="@color/light_blue"
+    android:textSize="20sp"
+    android:fontFamily="@font/segoeuibold"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <View
+                    android:id="@+id/langview"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icons_backmore"
+                    android:layout_alignParentEnd="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#808080"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/langview"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Term Of Services"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <View
+                    android:id="@+id/termofServices"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icons_backmore"
+                    android:layout_alignParentEnd="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#808080"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/termofServices"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <View
+                    android:id="@+id/PrivacyPolicy"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icons_backmore"
+                    android:layout_alignParentEnd="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#808080"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/PrivacyPolicy"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feed Bake"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <View
+                    android:id="@+id/Feedbake"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icons_backmore"
+                    android:layout_alignParentEnd="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#808080"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/Feedbake"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Version"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Version"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#808080"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/version"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+
+<!--    banner ads implement-->
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            app:adSize="BANNER"
+            app:adUnitId="@string/Banner_id"
+            >
+
+        </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+
+</LinearLayout>
